@@ -132,6 +132,11 @@ body.dark-theme{
   align-items: center;
   column-gap: 1rem;
 }
+.nav__btns a{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 1rem;
+}
 
 /*========== 
 Color changes in some parts of 
@@ -407,7 +412,7 @@ the website, in dark theme
   transform: translateX(.25rem);
 }
 
-/*=============== ABOUT ===============*/
+/*=============== Team ===============*/
 .about__container{
   row-gap: 2rem;
 }
@@ -560,7 +565,8 @@ the website, in dark theme
     margin: 10px 0 0 0;
 }
 .produk h1{
-    margin: 0 30px 30px 30px;
+    margin: 0 30px 50px 30px;
+    text-align: center;
 }
 .produk .card{
     display: flex;
@@ -801,7 +807,7 @@ the website, in dark theme
 
 .footer__logo-icon{
   font-size: 1.15rem;
-  color: var(--first-color);
+  color: var(--first-color-alt);
 }
 
 .footer__logo:hover{
